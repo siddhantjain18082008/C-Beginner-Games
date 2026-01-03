@@ -22,6 +22,7 @@ Compile: gcc guesser.c -o output
 
 Run: ./output
 
+### 2. Tic-Tac-Toe
 📝 License
 Free to use for learning. Credit appreciated.
 
