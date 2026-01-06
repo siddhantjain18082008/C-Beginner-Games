@@ -6,7 +6,9 @@ int main() {
     // Seed the random number generator with the current time
     srand(time(0));
 
-    int secret, guess, tries = 0;  // secret = target number, guess = user input, tries = attempts
+    int secret = rand() % 100 + 1;
+    int guess = -1;
+    int tries = 0;           // secret = target number, guess = user input, tries = attempts
 
     // Generate a random number between 1 and 100
     secret = rand() % 100 + 1;
